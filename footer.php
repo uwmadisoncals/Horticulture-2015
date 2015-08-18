@@ -69,6 +69,7 @@ University of Wisconsin Foundation.</p>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-rotate.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/browserdetect.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mainactions.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/twitterFetcher_v10_min.js"></script> 
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/twitterFetcher_v10_min.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script> 
 </body>
 </html>
