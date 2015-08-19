@@ -4524,7 +4524,10 @@ color: #B70101;
 }
 /*** END owl.theme.css  ***/
 
-#owl-hort-slider{}
+#owl-hort-slider{
+	margin:0 auto;
+	max-width:940px;
+}
 
 #owl-hort-slider .owl-wrapper-outer{}
 #owl-hort-slider .owl-wrapper-outer .owl-wrapper{}

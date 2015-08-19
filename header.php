@@ -253,3 +253,58 @@ wp_reset_query();
 	<div id="mobile-filter-inner">
 	</div>
 </div>
+
+<?php if(is_front_page()):
+
+		$sliderLoop_args = array(
+			'numberposts'=>-1,
+			'post_type'=>'slider'
+		);
+
+		$sliderLoop = new WP_Query($sliderLoop_args);
+
+		//The loop
+		if( $sliderLoop->have_posts() ) : ?>
+			<div id="owl-hort-slider" class="owl-carousel">
+
+			<?php while( $sliderLoop->have_posts() ) : $sliderLoop->the_post(); 
+
+				//Variables
+				$sliderTitle = get_field_object("field_55d4e3b7bbb43");
+				$sliderExcerpt = get_field_object("field_55d4e3cfbbb44");
+				$sliderImage = get_field_object("field_55d4e3eabbb45");
+			?>
+
+			    <div class="slide" style="background:url('<?php echo $sliderImage['value']['url']; ?>');background-size:cover;background-position: center center;">
+			    <?php 
+			   	logit( !empty($sliderTitle['value']),'$sliderTitle[value]: ');
+
+			   	if(!empty($sliderTitle['value']) || !empty($sliderExcerpt['value']) ) : ?>
+			   		
+			   		<div class="slide_wrapper_inner">
+
+					    <h3 class="sliderTitle"><?php echo $sliderTitle['value']; ?></h3>
+
+					    <div class="excerpt_wrapper">
+					    	<p class="sliderExcerpt"><?php echo $sliderExcerpt['value']; ?></p>
+					    </div><!-- .excerpt_wrapper -->
+
+					</div><!-- .slide_wrapper_inner -->
+
+			   	<?php endif; ?>
+
+
+			    </div><!-- .slide -->
+
+			<?php endwhile; ?>
+			</div><!-- #owl-hort-slider -->
+
+		<?php else: ?>
+
+		<?php endif; ?>
+
+		<?php wp_reset_query();  // Restore global post data stomped by the_post() ?>
+
+
+
+<?php endif; ?>
