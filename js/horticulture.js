@@ -26,6 +26,11 @@
 				}
 				counter++;
 			});
+
+			//slide_wrapper_inner width fix
+			/*var slideWidth = $(".slide").width();
+			console.log("slideWidth: "+ slideWidth);
+			$(".slide_wrapper_inner").css("width", slideWidth); */
 		}
 
 

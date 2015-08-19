@@ -44,9 +44,9 @@ get_header(); ?>
 			<?php while( $sliderLoop->have_posts() ) : $sliderLoop->the_post(); 
 
 				//Variables
-				$sliderTitle = get_field_object("field_55d49243f1f4f");
-				$sliderExcerpt = get_field_object("field_55d492d0f1f50");
-				$sliderImage = get_field_object("field_55d493a2f1f51");
+				$sliderTitle = get_field_object("field_55d4e3b7bbb43");
+				$sliderExcerpt = get_field_object("field_55d4e3cfbbb44");
+				$sliderImage = get_field_object("field_55d4e3eabbb45");
 			?>
 
 			    <div class="slide" style="background:url('<?php echo $sliderImage['value']['url']; ?>');background-size:cover;background-position: center center;">
