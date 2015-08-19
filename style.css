@@ -4523,6 +4523,58 @@ color: #B70101;
 }
 /*** END owl.theme.css  ***/
 
+#owl-hort-slider{}
+
+#owl-hort-slider .owl-wrapper-outer{}
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper{}
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item{
+	background-color:#413c33;
+	/*background:url("http://hc.localhost/horticulturedepartment/wp-content/themes/Horticulture-2015/images/agriculture-pic-1.jpg");
+	background-position: center center;
+	background-size:cover;*/
+	min-height: 300px;
+	color:white;
+
+
+}
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide{
+	position: absolute;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide_wrapper_inner{
+position: absolute;
+bottom:0;
+padding:1em;
+background-color:rgba(65, 60, 51, 0.7);
+width:100%;
+height:100px;
+}
+
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide_wrapper_inner .sliderTitle{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizelegibility;
+font-family: "Open Sans",Helvetica,sans-serif;
+font-size:18px;
+}
+
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide_wrapper_inner .excerpt_wrapper{}
+
+#owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide_wrapper_inner .excerpt_wrapper p{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizelegibility;
+}
+
+
+#owl-hort-slider .owl-controls.clickable{}
+
+
 .newsItem a:link, .newsItem a:visited, .newsItem .previousa, .newsItemAlt .previousa {
 	display: block;
 	width: 222px;
