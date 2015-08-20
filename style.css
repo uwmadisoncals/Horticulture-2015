@@ -850,6 +850,10 @@ a.button:active {
 
 }
 
+#access.fixedNav.logged_in{
+top:32px;
+}
+
 #access.fixedNav .centerfix {
 	margin: 0 auto;
 	width: 940px;

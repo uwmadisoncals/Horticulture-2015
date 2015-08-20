@@ -212,7 +212,7 @@ wp_reset_query();
 
 			</hgroup>
 
-			<nav id="access" role="navigation">
+			<nav id="access" role="navigation" class="<?php if(is_user_logged_in()){echo "logged_in";} ?>">
 				<a href="#" class="mobileNavTrigger">Navigation</a>
 				<a href="#" class="mobileSettingsTrigger">Navigation</a>
 				<div class="mobileScrollTop"></div>
