@@ -277,7 +277,6 @@ wp_reset_query();
 
 			    <div class="slide" style="background:url('<?php echo $sliderImage['value']['url']; ?>');background-size:cover;background-position: center center;">
 			    <?php 
-			   	logit( !empty($sliderTitle['value']),'$sliderTitle[value]: ');
 
 			   	if(!empty($sliderTitle['value']) || !empty($sliderExcerpt['value']) ) : ?>
 			   		
