@@ -1,9 +1,5 @@
 (function($) {
 
-	$( document ).ready(function() {
-
-		if($('body').is(".home.blog")){
-
 			$("#owl-hort-slider").owlCarousel({
 			
 			navigation : false, // hide next and prev buttons
@@ -13,6 +9,12 @@
 	      	paginationSpeed : 400,
 	      	singleItem:true
 			});
+
+	$( document ).ready(function() {
+
+		if($('body').is(".home.blog")){
+
+
 
 			//assign unique ID's to slides
 			var counter = 0;
