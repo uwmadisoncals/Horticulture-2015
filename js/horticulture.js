@@ -3,7 +3,8 @@
 			$("#owl-hort-slider").owlCarousel({
 			
 			navigation : false, // hide next and prev buttons
-			//autoPlay:4500,
+			pagination:false,
+			autoPlay:4500,
 			addClassActive:true,
 	      	slideSpeed : 300,
 	      	paginationSpeed : 400,
