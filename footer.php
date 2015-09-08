@@ -26,11 +26,10 @@
 			</div>
 			<div class="linksContainer right">
 				<h3>Support</h3>
-				<p>You can help support Life Sciences 
-Communication by making a gift to the 
+				<p>You can help support The Horticulture Department by making a gift to the 
 University of Wisconsin Foundation.</p>
 				<a href="https://secure.supportuw.org/MultiPage/processStep1.do?seq=1441" class="button">Make a Gift</a>
-				<p class="address">Department of Life Sciences Communication | Hiram Smith Hall | 1545 Observatory Drive | Madison, WI 53706 | 608.262.1464 | <a href="mailto:frontdesk@lsc.wisc.edu">frontdesk@lsc.wisc.edu</a></p>
+				<p class="address">Department of Horticulture | 1575 Linden Drive | Madison, WI 53706 | 608.262.1490 | <a href="mailto:frontdesk@lsc.wisc.edu">frontdesk@lsc.wisc.edu</a></p>
 			</div>
 			<div class="clearfix"></div>
         </div>
@@ -51,9 +50,9 @@ University of Wisconsin Foundation.</p>
 			?>
 		</div>
 		<div class="socialRef">
-			<a href="https://twitter.com/uw_lsc" class="twitter">Twitter</a>
+			<a href="https://twitter.com/UW_Hort" class="twitter">Twitter</a>
 		
-			<a href="https://www.facebook.com/UWMadisonLSC" class="facebook">Facebook</a>
+			<a href="https://www.facebook.com/UWMadison.DeptofHorticulture" class="facebook">Facebook</a>
 		</div>
 			<div class="clearfix"></div>
         </div>
