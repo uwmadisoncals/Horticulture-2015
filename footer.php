@@ -29,7 +29,7 @@
 				<p>You can help support The Horticulture Department by making a gift to the 
 University of Wisconsin Foundation.</p>
 				<a href="https://secure.supportuw.org/MultiPage/processStep1.do?seq=1441" class="button">Make a Gift</a>
-				<p class="address">Department of Horticulture | 1575 Linden Drive | Madison, WI 53706 | 608.262.1490 | <a href="mailto:frontdesk@lsc.wisc.edu">frontdesk@lsc.wisc.edu</a></p>
+				<p class="address">Department of Horticulture | 1575 Linden Drive | Madison, WI 53706 | 608.262.1490 | <a href="mailto:hort@hort.edu">hort@hort.edu</a></p>
 			</div>
 			<div class="clearfix"></div>
         </div>
