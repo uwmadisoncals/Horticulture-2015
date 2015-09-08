@@ -27,7 +27,7 @@ get_header(); ?>
 					
 
 
-					<?php get_template_part( 'content', 'single-academicstaff' ); ?>
+					<?php get_template_part( 'content', 'single-academic_staff' ); ?>
 
 					<?php //comments_template( '', true ); ?>
 
