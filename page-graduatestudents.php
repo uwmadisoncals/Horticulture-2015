@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Academic Staff
+Template Name: Graduate Students
 */
 
 
@@ -74,6 +74,14 @@ get_header(); ?>
 	    				
 	    				<div class="officeEmail">
 	    					<?php the_field('office_email'); ?>
+	    				</div>
+						
+						<div class="advisor">
+	    					<?php the_field('advisor'); ?>
+	    				</div>
+						
+						<div class="researchfocus">
+	    					<?php the_field('research_focus'); ?>
 	    				</div>
     				</div>
 	    		</div>

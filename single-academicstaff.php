@@ -1,6 +1,6 @@
 <?php
 /**
- * The Template for displaying faculty single posts.
+ * The Template for displaying academic staff single posts.
  * @package WordPress
  * @subpackage CALSv1
  * @since CALS 1.0
@@ -27,7 +27,7 @@ get_header(); ?>
 					
 
 
-					<?php get_template_part( 'content', 'single-academicstaff' ); ?>
+					<?php get_template_part( 'content', 'single-academic_staff' ); ?>
 
 					<?php //comments_template( '', true ); ?>
 

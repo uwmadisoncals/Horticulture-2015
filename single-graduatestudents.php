@@ -1,6 +1,6 @@
 <?php
 /**
- * The Template for displaying faculty single posts.
+ * The Template for displaying graduate students single posts.
  * @package WordPress
  * @subpackage CALSv1
  * @since CALS 1.0
@@ -27,7 +27,7 @@ get_header(); ?>
 					
 
 
-					<?php get_template_part( 'content', 'single-graduatestudents' ); ?>
+					<?php get_template_part( 'content', 'grad_students' ); ?>
 
 					<?php //comments_template( '', true ); ?>
 
