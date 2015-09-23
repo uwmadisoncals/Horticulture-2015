@@ -1,6 +1,6 @@
 <?php
 /**
- * The Template for displaying graduate students single posts.
+ * The Template for displaying academic staff single posts.
  * @package WordPress
  * @subpackage CALSv1
  * @since CALS 1.0
