@@ -4557,10 +4557,12 @@ color: #B70101;
 #owl-hort-slider .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide_wrapper_inner{
 position: absolute;
 bottom:0;
-padding:1em;
+padding:14px;
+padding-bottom: 8px;
+padding-top: 8px;
 background-color:rgba(65, 60, 51, 0.7);
 width:100%;
-height:140px;
+
 box-sizing:border-box;
 }
 
