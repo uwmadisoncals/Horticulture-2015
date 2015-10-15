@@ -3621,7 +3621,7 @@ body {
 }
 
 body {
-	background:#eeeee4 url("images/lscheader_bg.jpg");
+	background:#eeeee4 url("images/hortheader_bg.jpg");
 	background-repeat: repeat-x, repeat;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -5908,7 +5908,7 @@ position: relative;
 
 footer#colophon {
 
-	background: url("images/lscfooter_bg.jpg") repeat;
+	background: url("images/hortfooter_bg.jpg") repeat;
 	color: #c6c6c6;
 	font-size: 11px;
 
