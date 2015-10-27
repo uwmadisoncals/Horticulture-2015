@@ -4,7 +4,7 @@
 			
 			navigation : false, // hide next and prev buttons
 			pagination:false,
-			autoPlay:4500,
+			autoPlay:7500,
 			addClassActive:true,
 	      	slideSpeed : 300,
 	      	paginationSpeed : 400,
