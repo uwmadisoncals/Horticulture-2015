@@ -8387,3 +8387,14 @@ margin-left: 0px;
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
+
+/* About Us - sticky post */
+
+body.home .hort-sticky-post{
+box-sizing:border-box;
+height: 300px;
+background-color: #F3EEE5;
+padding:12px;
+margin-bottom:40px;
+}

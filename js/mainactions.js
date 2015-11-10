@@ -2091,4 +2091,12 @@ var countFeatures = 0;
 			}
 		});
 	}
+		//Move Article title on home page to appear after sticky post
+		if($('body').is(".home") && $('.hort-sticky-post').length){ //if on home page and .hort-sticky exists
+		
+			$('#content article header.entry-header h1').insertAfter('.hort-sticky-post');
+		}
+
+
+
 });
