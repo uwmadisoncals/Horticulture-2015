@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Academic Staff
+Template Name: Graduate Students
 */
 
 
@@ -21,7 +21,7 @@ get_header(); ?>
 
 					<?php //comments_template( '', true ); ?>
 					
-					<?php $args = array( 'post_type' => 'academic_staff', 'meta_key' => 'last_name', 'posts_per_page' => 80, 'orderby' => 'last_name', 'order' => 'ASC' );
+					<?php $args = array( 'post_type' => 'grad_students', 'meta_key' => 'last_name', 'posts_per_page' => 80, 'orderby' => 'last_name', 'order' => 'ASC' );
 					$loop = new WP_Query( $args );
 					while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					
@@ -74,6 +74,14 @@ get_header(); ?>
 	    				
 	    				<div class="officeEmail">
 	    					<?php the_field('office_email'); ?>
+	    				</div>
+						
+						<div class="advisor">
+	    					<?php the_field('advisor'); ?>
+	    				</div>
+						
+						<div class="researchfocus">
+	    					<?php the_field('research_focus'); ?>
 	    				</div>
     				</div>
 	    		</div>
