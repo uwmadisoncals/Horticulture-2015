@@ -21,7 +21,7 @@ get_header(); ?>
 
 					<?php //comments_template( '', true ); ?>
 					
-					<?php $args = array( 'post_type' => 'grad_students', 'meta_key' => 'last_name', 'posts_per_page' => 80, 'orderby' => 'last_name', 'order' => 'ASC' );
+					<?php $args = array( 'post_type' => 'researchassociates', 'meta_key' => 'last_name', 'posts_per_page' => 80, 'orderby' => 'last_name', 'order' => 'ASC' );
 					$loop = new WP_Query( $args );
 					while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					
