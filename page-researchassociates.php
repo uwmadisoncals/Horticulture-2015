@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Graduate Students
+Template Name: Research Associates
 */
 
 
