@@ -12,7 +12,6 @@ get_header(); ?>
 <a href="#" class="mobileNavTriggerLarge" style="display: none;"></a>
 
 	<div id="main">
-
 		<div id="primary">
 			<div id="content" role="main">
 
@@ -27,7 +26,7 @@ get_header(); ?>
 					
 
 
-					<?php get_template_part( 'content', 'grad_students' ); ?>
+					<?php get_template_part( 'content', 'single-grad_students' ); ?>
 
 					<?php //comments_template( '', true ); ?>
 
